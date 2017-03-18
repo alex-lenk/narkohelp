@@ -1,0 +1,37 @@
+.video {
+  margin: 0;
+  padding: 101px 10px 62px;
+  list-style: none;
+  @include clearfix;
+  li {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+    &:first-of-type {
+      width: 83%;
+      height: 440px;
+      float: left;
+      margin: 0 8px 0 0;
+    }
+    &:not(:first-of-type) {
+      width: 140px;
+      height: 78px;
+      margin-bottom: 20px;
+    }
+    &:not(:last-of-type):hover {
+      outline: inset 3px #00b5e5;
+      outline-offset: -3px;
+      cursor: pointer;
+    }
+  }
+}
+
+.video-more {
+  padding-bottom: 2px;
+  color: #000;
+  border-bottom: 1px solid #bfbfbf;
+}

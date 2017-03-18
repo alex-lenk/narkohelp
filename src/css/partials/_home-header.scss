@@ -1,0 +1,40 @@
+.home-header {
+  background-color: #c3cdce;
+  .container {
+    padding-top: 40px;
+    padding-bottom: 47px;
+    position: relative;
+    &:before {
+      width: 581px;
+      height: 422px;
+      content: '';
+      background: url(../img/adel-valeev.png) no-repeat center;
+      position: absolute;
+      top:0;
+      right: -155px;
+    }
+    div {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
+.home-header_title {
+  padding-bottom: 15px;
+  margin-bottom: 19px;
+  font-size: 36px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+.home-header__signature {
+  margin-bottom: 40px;
+}
+
+.home-header__text {
+  margin-bottom: 19px;
+  font-style: italic;
+  line-height: 1.9;
+}

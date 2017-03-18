@@ -1,0 +1,105 @@
+.cost {
+  background: #f5f5f5;
+  padding: 69px 0 97px;
+}
+
+.cost-old {
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  color: #01b5e5;
+  position: relative;
+  display: inline-block;
+  &::before {
+    content: '';
+    background: #fd4646;
+    height: 3px;
+    width: 156px;
+    position: absolute;
+    top: 19px;
+    left: -11px;
+    right: 0;
+  }
+  &::after {
+    width: 23px;
+    height: 28px;
+    content: '';
+    background: url(../img/rub.svg) no-repeat center / cover;
+    display: inline-block;
+  }
+  img {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 7px;
+  }
+}
+
+.cost-new {
+  color: #fd7646;
+  font-size: 98px;
+  line-height: 120%;
+  margin-bottom: 10px;
+  text-align: center;
+  &::after {
+    width: 83px;
+    height: 80px;
+    content: '';
+    background: url(../img/rub-oranges.svg) no-repeat center/100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 7px;
+  }
+}
+
+.cost-text {
+  padding-bottom: 40px;
+  font-size: 18px;
+  text-align: center;
+  width: 620px;
+  margin: 0 auto 43px;
+  line-height: 30px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.cost-title {
+  margin: 0 0 53px;
+  padding: 0;
+  font-size: 32px;
+}
+
+.cost-list {
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  li {
+    list-style-type: none;
+    padding: 5px 0 8px 59px;
+    margin-bottom: 35px;
+    width: 42%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: underline;
+    position: relative;
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(../img/spritesheet.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      content: '';
+      @include stitches-sprite(- 87px, - 136px, 30px, 30px);
+    }
+  }
+}

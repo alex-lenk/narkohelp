@@ -1,0 +1,95 @@
+.consultation {
+  background: url(../img/back-request.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 65px 0 90px;
+  position: relative;
+  color: #fff;
+
+  &::before {
+    background-color: rgba(5, 8, 9, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+  }
+
+  .container {
+    position: relative;
+    z-index: 5;
+    @include clearfix;
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  [class^="icon-"]::before {
+    vertical-align: middle;
+    margin-right: 25px;
+  }
+}
+
+.consultation-title {
+  margin-bottom: 17px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.consultation-text {
+  line-height: 30px;
+  font-size: 18px;
+  max-width: 620px;
+  margin: 0 auto 63px;
+  text-align: center;
+}
+
+.consultation-form {
+  width: 382px;
+  float: left;
+  background: #fafafa;
+  padding: 31px 30px;
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-right: 101px;
+}
+
+.consultation-info {
+  padding-top: 29px;
+  float: left;
+  width: 48%;
+}
+
+.consultation-address {
+  border-bottom: 1px solid #7c7c7c;
+  padding-bottom:38px;
+  margin-bottom: 47px;
+  .icon-world {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+}
+
+.consultation-phone {
+  min-height: 33px;
+  border: none;
+  margin-bottom: 47px;
+}
+
+.consultation-number {
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  margin: 25px 0 47px;
+}
+
+.consultation-desc {
+  padding-left: 55px;
+  line-height: 23px;
+}

@@ -1,0 +1,36 @@
+@function calculateRem($size) {
+  $remSize: $size / 13px;
+  @return $remSize * 1rem;
+}
+
+//@include font-size(14px);
+@mixin font-size($size) {
+  font-size: calculateRem($size);
+}
+
+//Альтернатива display none
+//@include hide-display;
+@mixin hide-display() {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin visible-display() {
+  opacity: 1;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+//Очиститель потоков
+@mixin clearfix {
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}

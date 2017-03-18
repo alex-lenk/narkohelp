@@ -1,0 +1,46 @@
+.work-principles {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.work-principles-title {
+  margin: 0 0 69px;
+  font-size: 32px;
+}
+
+.work-principles__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include clearfix;
+
+  li {
+    max-width: 50%;
+    flex: 1 1 50%;
+    margin-bottom: 50px;
+    min-height: 94px;
+    padding: 0 30px 0 80px;
+    position: relative;
+    font-size: 18px;
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .icon-one::before {
+    @include stitches-sprite(-366px, -1px, 33px, 66px);
+  }
+  .icon-two::before {
+    @include stitches-sprite(-355px, -72px, 44px, 67px);
+  }
+  .icon-three::before {
+    @include stitches-sprite(-355px, -141px, 44px, 69px);
+  }
+  .icon-fo::before {
+    @include stitches-sprite(-350px, -212px, 50px, 68px);
+  }
+}

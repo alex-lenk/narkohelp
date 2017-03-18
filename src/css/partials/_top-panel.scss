@@ -1,0 +1,42 @@
+.top-panel {
+  padding-top: 27px;
+  padding-bottom: 55px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-transparent {
+    height: 44px;
+    line-height: 38px;
+    font-size: 16px;
+  }
+}
+
+.top-panel__address {
+  li {
+    &:first-of-type {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    &:not(:first-of-type) {
+      color: #5a5a5a;
+      font-size: 14px;
+    }
+  }
+}
+
+.top-panel__contacts {
+  li {
+    &:first-of-type {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    &:not(:first-of-type) {
+      color: #5a5a5a;
+      font-size: 14px;
+    }
+  }
+  a {
+    color: inherit;
+  }
+}

@@ -1,0 +1,97 @@
+.personal-block {
+  background: url(../img/bglines.png) no-repeat bottom center #f5f5f5;
+  background-size: 100%;
+  padding: 92px 0 147px;
+  .slick-arrow {
+    width: 29px;
+    height: 49px;
+    background: url("../img/prev-next.png") no-repeat no-repeat transparent;
+    border: 0;
+    text-indent: -9999px;
+    position: absolute;
+    top: 50px;
+  }
+  .slick-prev {
+    left: -25px;
+    background-position: 0 -49px;
+    &:hover {
+      background-position: 0 0;
+    }
+  }
+  .slick-next {
+    right: -25px;
+    background-position: -29px -49px;
+    &:hover {
+      background-position: -29px 0;
+    }
+  }
+  .slick-dots {
+    width: 100%;
+    margin: 0;
+    padding: 110px 0 0;
+    list-style: none;
+    text-align: center;
+    li {
+      text-indent: -9999px;
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      display: inline-block;
+      background: #b8b8b8;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      &:not(.slick-active) {
+        cursor: pointer;
+        &:hover {
+          background: #01b5e5;
+        }
+      }
+    }
+    .slick-active {
+      background: #01b5e5;
+      height: 12px;
+      width: 12px;
+    }
+  }
+}
+
+.personal-block__title {
+  margin: 0 0 16px;
+  padding: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.personal-block__text {
+  width: 569px;
+  margin: 0 auto 75px;
+  line-height: 30px;
+}
+
+.personal-carousel {
+  img {
+    margin: 0 auto 38px;
+    border-radius: 50%;
+    border: 9px solid #01b5e5;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: #004f7e;
+      img {
+        border-color: #004f7e;
+      }
+    }
+  }
+}
+
+.personal-carousel_title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+//prev-next.png

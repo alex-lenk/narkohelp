@@ -1,0 +1,126 @@
+@mixin stitches-sprite($x: 0, $y: 0, $width: 0, $height: 0) {
+  background-position: $x $y;
+  width: $width;
+  height: $height;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  &::before {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: '';
+  }
+}
+
+.icon-comp-1::before {
+  @include stitches-sprite(0, 0, 120px, 117px);
+}
+
+.icon-comp-2::before {
+  @include stitches-sprite(- 120px, 0, 125px, 93px);
+}
+
+.icon-comp-3::before {
+  @include stitches-sprite(- 120px, - 93px, 124px, 122px);
+}
+
+.icon-heart::before {
+  @include stitches-sprite(0, - 215px, 68px, 51px);
+}
+
+.icon-icon-1::before {
+  @include stitches-sprite(- 245px, - 74px, 51px, 47px);
+}
+
+.icon-icon-2::before {
+  @include stitches-sprite(0, - 121px, 38px, 54px);
+}
+
+.icon-icon-3::before {
+  @include stitches-sprite(- 38px, - 121px, 49px, 49px);
+}
+
+.icon-icon-4::before {
+  @include stitches-sprite(- 68px, - 215px, 56px, 56px);
+}
+
+.icon-icon-5::before {
+  @include stitches-sprite(- 244px, - 121px, 40px, 48px);
+}
+
+.icon-icon-6::before {
+  @include stitches-sprite(- 244px, - 169px, 48px, 48px);
+}
+
+.icon-icon-7::before {
+  @include stitches-sprite(- 124px, - 217px, 36px, 48px);
+}
+
+.icon-icon-8::before {
+  @include stitches-sprite(- 160px, - 217px, 48px, 48px);
+}
+
+.icon-ladv-3::before {
+  @include stitches-sprite(- 208px, - 217px, 48px, 48px);
+}
+
+.icon-ladv-4::before {
+  @include stitches-sprite(- 287px, 0, 48px, 44px);
+}
+
+.icon-ladv-5::before {
+  @include stitches-sprite(- 296px, - 44px, 44px, 48px);
+}
+
+.icon-ladv-6::before {
+  @include stitches-sprite(- 296px, - 92px, 44px, 44px);
+}
+
+.icon-ok::before {
+  @include stitches-sprite(- 87px, - 136px, 30px, 30px);
+}
+
+.icon-phone::before {
+  @include stitches-sprite(- 284px, - 136px, 30px, 30px);
+}
+
+.icon-play::before {
+  @include stitches-sprite(- 256px, - 217px, 64px, 64px);
+}
+
+.icon-play-min::before {
+  @include stitches-sprite(- 288px, - 288px, 48px, 48px);
+}
+
+.icon-quote::before {
+  @include stitches-sprite(- 292px, - 166px, 48px, 48px);
+}
+
+.icon-star::before {
+  @include stitches-sprite(0, - 281px, 62px, 58px);
+}
+
+.icon-vk::before {
+  @include stitches-sprite(- 62px, - 281px, 32px, 32px);
+}
+
+.icon-fb::before {
+  @include stitches-sprite(- 245px, 0, 32px, 32px);
+}
+
+.icon-tie::before {
+  @include stitches-sprite(- 245px, - 32px, 42px, 42px);
+}
+
+.icon-world::before {
+  @include stitches-sprite(- 314px, - 136px, 30px, 30px);
+}
+
+.icon-info::before {
+  @include stitches-sprite(- 0, - 186px, 23px, 23px);
+}
+
+.icon-video::before {
+  @include stitches-sprite(- 339px, - 288px, 61px, 42px);
+}

@@ -1,0 +1,55 @@
+input, button, textarea {
+  &:focus {
+    outline-color: transparent;
+  }
+}
+
+.btn {
+  padding: 0 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  background-color: transparent;
+  display: inline-block;
+  transition: all 0.3s ease;
+
+  &-transparent {
+    min-width: 114px;
+    border-color: #00b5e5;
+    height: 54px;
+    line-height: 48px;
+    color: #00b5e5;
+    background: #fff;
+    font-size: 18px;
+    &:hover {
+      color: #fff;
+      background: #00b5e5;
+    }
+  }
+
+  &-blue {
+    color: #fff;
+    background-color: #01b5e5;
+    border-color: #00b5e5;
+    padding: 12px 38px;
+    font-size: 18px;
+    &:hover {
+      color: #00b5e5;
+      background: #fff;
+    }
+  }
+
+  &-white {
+    height: 54px;
+    border-color: #fff;
+    line-height: 48px;
+    padding: 0 38px;
+    color: #fff;
+    font-size: 18px;
+    &:hover {
+      color: #014066;
+      background: #fff;
+    }
+  }
+}

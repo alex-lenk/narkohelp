@@ -1,0 +1,52 @@
+@import 'lib/breakpoint';
+@import 'lib/breakpoint-slicer';
+@import "partials/mixin";
+@import "partials/common";
+@import "partials/icons";
+@import "partials/btn";
+@import "partials/form";
+@import "partials/top-panel";
+@import "partials/nav";
+@import "partials/home-header";
+@import "partials/home-info-center";
+@import "partials/personal-block";
+@import "partials/infographic";
+@import "partials/comprehensive-help";
+@import "partials/comprehensive-approach";
+@import "partials/work-principles";
+@import "partials/stages-adaptation";
+@import "partials/about-center";
+@import "partials/reviews";
+@import "partials/cost";
+@import "partials/awards";
+@import "partials/video";
+@import "partials/consultation";
+@import "partials/footer";
+@import "partials/modal-form";
+
+.clearfix {
+  @include clearfix;
+}
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  padding: 50px 0 25px;
+}
+
+.home-info-text {
+  background: #004f7e;
+  color: #fff;
+  font-size: 20px;
+  padding: 85px 0 95px;
+  line-height: 30px;
+}
+
+.home-info-text__container {
+  width: 700px;
+  margin: 0 auto;
+}

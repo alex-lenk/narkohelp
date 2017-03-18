@@ -1,0 +1,62 @@
+.hide-placeholder {
+  &::-webkit-input-placeholder {
+    opacity: 1;
+    color: #8b8b8b;
+    transition: opacity 0.3s ease;
+  }
+  &::-moz-placeholder {
+    opacity: 1;
+    color: #8b8b8b;
+    transition: opacity 0.3s ease;
+  }
+  &:-moz-placeholder {
+    opacity: 1;
+    color: #8b8b8b;
+    transition: opacity 0.3s ease;
+  }
+  &:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #8b8b8b;
+  }
+  &:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 15px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  box-shadow: 0 0 2px 0 #cccccc;
+}
+
+textarea.form-control {
+  height: 126px;
+  resize: none;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

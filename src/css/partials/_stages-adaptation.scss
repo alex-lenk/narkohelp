@@ -1,0 +1,57 @@
+.stages-adaptation {
+  background: #00689b;
+  padding: 94px 0 21px;
+  color: #fff;
+  border-bottom: 2px solid #527fa1;
+}
+
+.stages-adaptation-title {
+  margin: 0 0 17px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.stages-adaptation__text {
+  margin: 0 auto 81px;
+  max-width: 660px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.stages-adaptation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+    margin-bottom: 65px;
+    padding-left: 77px;
+    position: relative;
+    flex-basis: 49%;
+    &:nth-child(odd) {
+      padding-right: 70px;
+    }
+    &:nth-child(even) {
+      padding-right: 10px;
+    }
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -30px;
+    }
+  }
+}
+
+.stages-adaptation__head {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stages-adaptation__desc {
+  line-height: 25px;
+}
