@@ -20,11 +20,6 @@ footer {
   }
 }
 
-.footer-info {
-  li {
-  }
-}
-
 .footer-social {
   font-size: 0;
   li {
@@ -32,12 +27,18 @@ footer {
     display: inline-block;
     vertical-align: middle;
   }
+  a:hover {
+    opacity: .8;
+  }
 }
 
 .footer-dev {
   overflow: hidden;
   flex-basis: 270px;
   font-size: 14px;
+  a {
+    text-decoration: underline;
+  }
   &::before {
     margin-right: 18px;
     float: left;
