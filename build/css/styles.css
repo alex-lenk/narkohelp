@@ -1,8 +1,10 @@
 body, html {
-  font-family: Arial, sans-serif;
+  width: 100%;
   font-size: 16px;
   line-height: 1.4;
   color: #000;
+  background-color: #fff;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 a:active, a:hover, a:link, a:visited {
@@ -527,6 +529,7 @@ textarea.form-control {
 
 .home-header {
   background-color: #c3cdce;
+  overflow: hidden;
 }
 
 .home-header .container {
@@ -537,7 +540,7 @@ textarea.form-control {
 
 .home-header .container:before {
   width: 581px;
-  height: 422px;
+  height: 418px;
   content: '';
   background: url(../img/adel-valeev.png) no-repeat center;
   position: absolute;
@@ -1531,8 +1534,8 @@ textarea.form-control {
 
 .video li {
   overflow: hidden;
-  position: relative;
   display: block;
+  position: relative;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1556,6 +1559,25 @@ textarea.form-control {
   outline: inset 3px #00b5e5;
   outline-offset: -3px;
   cursor: pointer;
+}
+
+.video li:not(:last-of-type):hover .video-title {
+  opacity: 1;
+}
+
+.video-title {
+  color: #66DBF9;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  opacity: .8;
+}
+
+.video-title::before {
+  vertical-align: middle;
+  margin-right: 20px;
 }
 
 .video-more {

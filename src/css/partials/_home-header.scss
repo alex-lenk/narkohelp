@@ -1,12 +1,13 @@
 .home-header {
   background-color: #c3cdce;
+  overflow: hidden;
   .container {
     padding-top: 40px;
     padding-bottom: 47px;
     position: relative;
     &:before {
       width: 581px;
-      height: 422px;
+      height: 418px;
       content: '';
       background: url(../img/adel-valeev.png) no-repeat center;
       position: absolute;

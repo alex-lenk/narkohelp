@@ -5,8 +5,8 @@
   @include clearfix;
   li {
     overflow: hidden;
-    position: relative;
     display: block;
+    position: relative;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -26,7 +26,24 @@
       outline: inset 3px #00b5e5;
       outline-offset: -3px;
       cursor: pointer;
+      .video-title {
+        opacity: 1;
+      }
     }
+  }
+}
+
+.video-title {
+  color: #66DBF9;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  opacity: .8;
+  &::before {
+    vertical-align: middle;
+    margin-right: 20px;
   }
 }
 
