@@ -450,11 +450,7 @@ textarea.form-control {
 }
 
 .top-panel .container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -494,18 +490,11 @@ textarea.form-control {
 
 .nav-menu {
   height: 70px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .nav-menu li {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
 }
 
@@ -579,11 +568,7 @@ textarea.form-control {
 .home-info-center .container {
   padding-top: 40px;
   padding-bottom: 40px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -737,17 +722,11 @@ textarea.form-control {
   list-style: none;
   line-height: 1;
   position: relative;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .infographic-counts li {
-  -webkit-flex: 1 0 33%;
-  -ms-flex: 1 0 33%;
   flex: 1 0 33%;
 }
 
@@ -766,8 +745,6 @@ textarea.form-control {
 }
 
 .infographic-counts__left {
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
   align-self: flex-end;
 }
 
@@ -797,8 +774,6 @@ textarea.form-control {
 
 .infographic-counts__right {
   margin-bottom: 20px;
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
   align-self: flex-end;
 }
 
@@ -819,8 +794,6 @@ textarea.form-control {
 
 .infographic-statistics li {
   padding: 30px 30px 30px 80px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #dddddd;
 }
@@ -831,14 +804,8 @@ textarea.form-control {
   font-size: 22px;
   line-height: 27px;
   position: relative;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-flex: 1 0 405px;
-  -ms-flex: 1 0 405px;
   flex: 1 0 405px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -851,8 +818,6 @@ textarea.form-control {
 
 .infographic-statistics__text {
   color: #626262;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
   flex: 1 1 auto;
 }
 
@@ -968,11 +933,7 @@ textarea.form-control {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -1013,14 +974,8 @@ textarea.form-control {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -1032,8 +987,6 @@ textarea.form-control {
 
 .work-principles__list li {
   max-width: 50%;
-  -webkit-flex: 1 1 50%;
-  -ms-flex: 1 1 50%;
   flex: 1 1 50%;
   margin-bottom: 50px;
   min-height: 94px;
@@ -1097,14 +1050,8 @@ textarea.form-control {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -1112,8 +1059,6 @@ textarea.form-control {
   margin-bottom: 65px;
   padding-left: 77px;
   position: relative;
-  -webkit-flex-basis: 49%;
-  -ms-flex-preferred-size: 49%;
   flex-basis: 49%;
 }
 
@@ -1427,14 +1372,8 @@ textarea.form-control {
 .cost-list {
   margin-bottom: 20px;
   text-align: left;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -1709,14 +1648,8 @@ footer ul {
 footer .container {
   padding-top: 53px;
   border-top: 1px solid #00689b;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -1740,8 +1673,6 @@ footer a:not(:hover) {
 
 .footer-dev {
   overflow: hidden;
-  -webkit-flex-basis: 270px;
-  -ms-flex-preferred-size: 270px;
   flex-basis: 270px;
   font-size: 14px;
 }
@@ -1823,5 +1754,3 @@ footer a:not(:hover) {
 .fade.in {
   opacity: 1;
 }
-
-/*# sourceMappingURL=../maps/styles.css.map */
