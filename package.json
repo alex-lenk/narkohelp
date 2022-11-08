@@ -38,6 +38,6 @@
     "gulp-uglify": "^1.5.4",
     "gulp-watch": "^4.3.8",
     "gulp-x-includer": "^0.1.2",
-    "svg-sprite-loader": "0.0.28"
+    "svg-sprite-loader": "6.0.11"
   }
 }
